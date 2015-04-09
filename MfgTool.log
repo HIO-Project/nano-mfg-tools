@@ -1,0 +1,84 @@
+DLL version: 2.3.2
+Thursday, April 09, 2015 14:17:57   Start new logging
+ModuleID[2] LevelID[10]: CMyExceptionHandler thread is running
+ModuleID[2] LevelID[1]: new MxHidDeviceClass
+ModuleID[2] LevelID[10]: new MxHidDevice[0092E1B8]
+ModuleID[2] LevelID[1]: new MxHidDeviceClass
+ModuleID[2] LevelID[10]: new MxHidDevice[00930398]
+ModuleID[2] LevelID[1]: new MxHidDeviceClass
+ModuleID[2] LevelID[10]: new MxHidDevice[00933178]
+ModuleID[2] LevelID[10]: Device Manager thread is running
+ModuleID[2] LevelID[10]: CmdOperation[0] device chagned and reset to state 0
+ModuleID[2] LevelID[10]: CmdOperation[0], skip current command, so SetEvent(hDevCanDeleteEvent)
+ModuleID[2] LevelID[10]: ExecuteCommand--Boot[WndIndex:0], File is E:\work\huhaijiang_work\MC-108\linbing_work\mfg_3.0.17\imx-3.10.17-1.0.0-ga-mfg-tools\imx-3.10.17-1.0.0-ga-mfg-tools\mfgtools-without-rootfs\mfgtools\Profiles\Linux\OS Firmware\firmware\test\hstq4g63mfr\u-boot-mx6dl-sabresd.bin
+ModuleID[2] LevelID[10]: ExecuteCommand--Load[WndIndex:0], File is E:\work\huhaijiang_work\MC-108\linbing_work\mfg_3.0.17\imx-3.10.17-1.0.0-ga-mfg-tools\imx-3.10.17-1.0.0-ga-mfg-tools\mfgtools-without-rootfs\mfgtools\Profiles\Linux\OS Firmware\firmware\test\hstq4g63mfr\uImage, address is 0x10800000
+ModuleID[2] LevelID[10]: PortMgrDlg(0)--Command Load excute successfully, retry count: 0
+ModuleID[2] LevelID[10]: ExecuteCommand--Load[WndIndex:0], File is E:\work\huhaijiang_work\MC-108\linbing_work\mfg_3.0.17\imx-3.10.17-1.0.0-ga-mfg-tools\imx-3.10.17-1.0.0-ga-mfg-tools\mfgtools-without-rootfs\mfgtools\Profiles\Linux\OS Firmware\firmware\test\initramfs.cpio.gz.uboot, address is 0x10C00000
+ModuleID[2] LevelID[10]: PortMgrDlg(0)--Command Load excute successfully, retry count: 0
+ModuleID[2] LevelID[10]: ExecuteCommand--Jump[WndIndex:0]
+ModuleID[2] LevelID[10]: *********MxHidDevice[00933178] Jump to Ramkernel successfully!**********
+ModuleID[2] LevelID[10]: CmdOperation[0], current state command has been finished and the last command is successful, so SetEvent(hDevCanDeleteEvent)
+ModuleID[2] LevelID[10]: DeviceManager::DevChangeWnd::OnDeviceChange() - DEVICE_REMOVAL_EVT(\\?\USB#VID_15A2&PID_0061#5&2f72414a&0&1#{a5dcbf10-6530-11d2-901f-00c04fb951ed})
+ModuleID[2] LevelID[10]: DeviceManager::DevChangeWnd::OnDeviceChange() - end
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent() - DEVICE_REMOVAL_EVT(\\?\USB#VID_15A2&PID_0061#5&2f72414a&0&1#{a5dcbf10-6530-11d2-901f-00c04fb951ed})
+ModuleID[2] LevelID[10]: DeviceClass::FindDeviceByUsbPath--DeviceListType_Current, _devices.size: 1
+ModuleID[2] LevelID[10]: DeviceClass::FindDeviceByUsbPath--DeviceListType_Current, devInstPathToFind: USB\VID_15A2&PID_0061\5&2F72414A&0&1, _deviceInstanceID: USB\VID_15A2&PID_0061\5&2F72414A&0&1
+ModuleID[2] LevelID[10]: DeviceClass::FindDeviceByUsbPath--DeviceListType_Current, Find the device
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent() - DEVICE_REMOVAL_EVT,[MxHidDeviceClass] vid_15a2&pid_0061, Hub:1-Port:1
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent() - DEVICE_REMOVAL_EVT, Notify
+ModuleID[2] LevelID[10]: CmdOpreation[0]--OnDeviceChangeNotify, Volume Arrive/Remove or Device Arrive/Remove
+ModuleID[2] LevelID[10]: CmdOpreation[0]--OnDeviceChangeNotify, m_p_usb_port is not NULL, so only refresh
+ModuleID[2] LevelID[10]: CmdOpreation[0]--OnDeviceChangeNotify, Volume/Device Remove
+ModuleID[2] LevelID[1]: CmdOpreation[0]--set m_hDeviceRemoveEvent.
+ModuleID[2] LevelID[10]: CmdOpreation[0]--WaitforEvents device remove1
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent()-DEVICE_REMOVAL_EVT, hDevCanDeleteEvent has been set
+ModuleID[2] LevelID[10]: delete MxHidDevice[00933178]
+ModuleID[2] LevelID[10]: DeviceManager::DevChangeWnd::OnDeviceChange() - DEVICE_ARRIVAL_EVT(\\?\USB#VID_066F&PID_37FF#5&2f72414a&0&1#{a5dcbf10-6530-11d2-901f-00c04fb951ed})
+ModuleID[2] LevelID[10]: DeviceManager::DevChangeWnd::OnDeviceChange() - end
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent() - DEVICE_ARRIVAL_EVT(\\?\USB#VID_066F&PID_37FF#5&2f72414a&0&1#{a5dcbf10-6530-11d2-901f-00c04fb951ed})
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent() - DEVICE_ARRIVAL_EVT,[Msc,DiskDeviceClass] vid_066f&pid_37ff, not handled
+ModuleID[2] LevelID[10]: DeviceManager::DevChangeWnd::OnDeviceChange() - VOLUME_ARRIVAL_EVT(H)
+ModuleID[2] LevelID[10]: DeviceManager::DevChangeWnd::OnDeviceChange() - end
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent() - VOLUME_ARRIVAL_EVT(H)
+ModuleID[2] LevelID[10]: VolumeDeviceClass::AddUsbDevice()  H
+ModuleID[2] LevelID[10]: DeviceTypeDisk--_devices size: 1
+ModuleID[2] LevelID[10]: Volume--StorageDisk, Disk->_driveNumber:1, Volume->_diskNumber:1
+ModuleID[2] LevelID[10]: DeviceTypeDisk--find Disk device: 0093DA70
+ModuleID[2] LevelID[10]: Device::hubIndex::getmsc, return the port index is: 1
+ModuleID[2] LevelID[10]: VolumeDeviceClass::AddUsbDevice() successful H add to current list, retrycount: 0
+ModuleID[2] LevelID[10]: Device::hubIndex::getmsc, return the port index is: 1
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent() - VOLUME_ARRIVAL_EVT-Disk(H), Hub:1-Port:1
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent() - VOLUME_ARRIVAL_EVT, Notify
+ModuleID[2] LevelID[10]: CmdOpreation[0]--OnDeviceChangeNotify, Volume Arrive/Remove or Device Arrive/Remove
+ModuleID[2] LevelID[10]: CmdOpreation[0]--OnDeviceChangeNotify, m_p_usb_port is not NULL, so only refresh
+ModuleID[2] LevelID[10]: CmdOpreation[0]--OnDeviceChangeNotify, Volume/Device Arrive
+ModuleID[2] LevelID[1]: CmdOpreation[0]--set m_hDeviceArriveEvent.
+ModuleID[2] LevelID[10]: CmdOpreation[0]--WaitforEvents device arrive1
+ModuleID[2] LevelID[10]: CmdOperation[0] device chagned and reset to state 1
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ dd if=/dev/zero of=/dev/mmcblk0 bs=1k seek=384 conv=fsync count=129
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ echo 0 > /sys/block/mmcblk0boot0/force_ro
+ModuleID[2] LevelID[10]: CmdOperation[0], skip current command, so SetEvent(hDevCanDeleteEvent)
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is send
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ dd if=$FILE of=/dev/mmcblk0boot0 bs=512 seek=2
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ echo 1 > /sys/block/mmcblk0boot0/force_ro
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ echo 8 > /sys/block/mmcblk0/device/boot_config
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ mkfs.vfat /dev/mmcblk0p1
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ mkdir -p /mnt/mmcblk0p1
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ mount -t vfat /dev/mmcblk0p1 /mnt/mmcblk0p1
+ModuleID[2] LevelID[10]: CmdOperation[0], skip current command, so SetEvent(hDevCanDeleteEvent)
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is send
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ cp $FILE /mnt/mmcblk0p1/uImage
+ModuleID[2] LevelID[10]: CmdOperation[0], skip current command, so SetEvent(hDevCanDeleteEvent)
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is send
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ cp $FILE /mnt/mmcblk0p1/imx6q-sabresd.dtb
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ cp $FILE /mnt/mmcblk0p1/imx6dl-sabresd.dtb
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ umount /mnt/mmcblk0p1
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ sync
+ModuleID[2] LevelID[10]: ExecuteCommand--Push[WndIndex:0], Body is $ echo Update Complete!
+ModuleID[2] LevelID[10]: CCmdOpreation[0] thread is Closed
+ModuleID[2] LevelID[10]: CCmdOpreation[0] thread is Closed
+ModuleID[2] LevelID[10]: DeviceManager::OnMsgDeviceEvent() - EVENT_KILL
+ModuleID[2] LevelID[10]: CMyExceptionHandler::OnMsgExceptionEvent() - KillExceptionHandlerThread
+ModuleID[2] LevelID[10]: Exception Handler thread is closed
+ModuleID[2] LevelID[1]: delete MxHidDeviceClass
+ModuleID[2] LevelID[10]: Device Manager thread is closed
